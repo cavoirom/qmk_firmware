@@ -32,3 +32,8 @@
 #define MATRIX_COL_PINS { B5, B4, B3, A15, B14, A7, A6, A5, A4, A3, A2, A1 }
 
 #define DIODE_DIRECTION COL2ROW
+
+/* Used together with sym_defer_g for lower latency */
+#define DEBOUNCE 1
+#define USB_POLLING_INTERVAL_MS 1
+
