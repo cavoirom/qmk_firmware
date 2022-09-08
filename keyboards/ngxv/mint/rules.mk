@@ -1,5 +1,6 @@
 # MCU name
 MCU = STM32F411
+BOARD = BLACKPILL_STM32_F411
 
 # Bootloader selection
 # See: https://github.com/qmk/qmk_firmware/blob/master/docs/flashing.md
