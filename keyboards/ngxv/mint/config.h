@@ -34,6 +34,9 @@
 #define DIODE_DIRECTION COL2ROW
 
 /* Used together with sym_defer_g for lower latency */
-#define DEBOUNCE 1
+#define DEBOUNCE 2
 #define USB_POLLING_INTERVAL_MS 1
+
+#define ONESHOT_TAP_TOGGLE 2  /* Tapping this number of times holds the key until tapped once again. */
+#define ONESHOT_TIMEOUT 0     /* We don't use onshot, only use oneshot tap. */
 
