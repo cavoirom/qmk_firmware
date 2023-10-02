@@ -17,24 +17,6 @@
 
 #pragma once
 
-#include "config_common.h"
-
-#define VENDOR_ID 0x1515
-#define PRODUCT_ID 0x0001
-#define DEVICE_VER 0x0101
-#define MANUFACTURER ngxv.org
-#define PRODUCT Mint Keyboard
-
-#define MATRIX_ROWS 4
-#define MATRIX_COLS 12
-
-#define MATRIX_ROW_PINS { B15, B6, B7, A0 }
-#define MATRIX_COL_PINS { B5, B4, B3, A15, B14, A7, A6, A5, A4, A3, A2, A1 }
-
-#define DIODE_DIRECTION COL2ROW
-
-/* Used together with sym_defer_g for lower latency */
-#define DEBOUNCE 3
 #define USB_POLLING_INTERVAL_MS 1
 
 #define ONESHOT_TAP_TOGGLE 2  /* Tapping this number of times holds the key until tapped once again. */
